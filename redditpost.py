@@ -1,7 +1,7 @@
 import praw
 from datetime import datetime, timezone
-reddit_client_id = "FkvHtjOh6cCfH9-TaJqk_A"
-reddit_client_secret = "mf8uDYs_Q-k1QpGbO7NLK85VIIMGrg"
+reddit_client_id = ""
+reddit_client_secret = ""
 
 def get_subreddit_text(subreddit_name="cryptomarkets"):
     reddit = praw.Reddit(
@@ -28,3 +28,4 @@ def main():
         f.write(output_cont)
 if __name__ == "__main__":
     main()
+
